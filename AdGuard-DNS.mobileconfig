@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>このファイルは開発者用です。
+システム等に影響を及ぼす可能性がありますが、作成者および管理者はなんら責任を負いません。</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>94.140.14.140</string>
+						<string>94.140.14.141</string>
+						<string>2a10:50c0:0:0:0:0:1:ff</string>
+						<string>2a10:50c0:0:0:0:0:2:ff</string>
+					</array>
+					<key>ServerURL</key>
+					<string>https://unfiltered.adguard-dns.com/dns-query</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use AdGuard DNS</string>
+				<key>PayloadDisplayName</key>
+				<string>AdGuard DoH</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.a4d46ebe-a00f-4586-8db8-514a924b4f4a</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>ead3ca4b-fe5d-4502-811a-35431f2766b9</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Adds Private DNS to Big Sur and iOS 14 or newer systems</string>
+		<key>PayloadDisplayName</key>
+		<string>AdGuard-DNS</string>
+		<key>PayloadIdentifier</key>
+		<string>profile.neu.adguard</string>
+		<key>PayloadOrganization</key>
+		<string>NAC</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false />
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>cfed93c2-8c05-402b-8598-9424f4b12c3f</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

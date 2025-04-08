@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>このファイルは開発者用です。
+システム等に影響を及ぼす可能性がありますが、作成者および管理者はなんら責任を負いません。</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>1.1.1.1</string>
+						<string>1.0.0.1</string>
+						<string>2606:4700:4700::1111</string>
+						<string>2606:4700:4700::1001</string>
+					</array>
+					<key>ServerURL</key>
+					<string>https://cloudflare-dns.com/dns-query</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use AdGuard DNS</string>
+				<key>PayloadDisplayName</key>
+				<string>Cloudflare DoH</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.a4d46ebe-a00f-4586-8db8-514a924b4f4a</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>ead3ca4b-fe5d-4502-811a-35431f2766b9</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Adds Private DNS to Big Sur and iOS 14 or newer systems</string>
+		<key>PayloadDisplayName</key>
+		<string>Cloudflare-DNS</string>
+		<key>PayloadIdentifier</key>
+		<string>profile.neu.cloudflare</string>
+		<key>PayloadOrganization</key>
+		<string>NAC</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false />
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>1bf43820-7faf-45e3-8330-c1d194127839</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

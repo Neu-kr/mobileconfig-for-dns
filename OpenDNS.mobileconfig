@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>このファイルは開発者用です。
+システム等に影響を及ぼす可能性がありますが、作成者および管理者はなんら責任を負いません。</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>2620:0:ccc::2</string>
+						<string>2620:0:ccd::2</string>
+						<string>208.67.222.222</string>
+						<string>208.67.220.220</string>
+					</array>
+					<key>ServerURL</key>
+					<string>https://doh.opendns.com/dns-query</string>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>DNS Settings #1</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.1ba58601-7208-4b04-bf5c-f6b13b1b53a1</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>1ba58601-7208-4b04-bf5c-f6b13b1b53a1</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Adds Private DNS to Big Sur and iOS 14 or newer systems</string>
+		<key>PayloadDisplayName</key>
+		<string>OpenDNS-DNS</string>
+		<key>PayloadIdentifier</key>
+		<string>NAC</string>
+		<key>PayloadOrganization</key>
+		<string>NAC</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>b17c133a-e4ea-4f3d-9c7c-ce078f5cec0a</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
